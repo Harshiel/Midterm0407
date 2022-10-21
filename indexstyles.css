@@ -1,0 +1,449 @@
+body {
+    background-color: lightblue;
+  }
+
+ 
+
+  .cafeheading{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid grey;
+    padding: 10px;
+    
+  }
+  
+  .btn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid grey;
+  margin-top: 30px;
+  margin-left: 700px;
+    margin-right: 700px;
+  }
+
+  .borderr{
+
+    border: 3px solid grey;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 170px;
+    
+    
+  }
+
+  .position{
+
+    margin-left: 8%;
+    
+  }
+
+
+
+  .imgone{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+
+
+ .imgtwo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgthree {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+ 
+ .imgfour {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgtwo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgfive {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+
+
+ .imgsix {
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgseven {
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgeight {
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgnine {
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgten {
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+ }
+
+ .imgone div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgone:hover{
+    cursor: pointer;
+}    
+
+.imgone:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+.imgtwo div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgtwo:hover{
+    cursor: pointer;
+}    
+
+.imgtwo:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+.imgthree div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgthree:hover{
+    cursor: pointer;
+}    
+
+.imgthree:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+.imgfour div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgfour:hover{
+    cursor: pointer;
+}    
+
+.imgfour:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+.imgfive div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgfive:hover{
+    cursor: pointer;
+}    
+
+.imgfive:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+.imgsix div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgsix:hover{
+    cursor: pointer;
+}    
+
+.imgsix:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+.imgseven div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgseven:hover{
+    cursor: pointer;
+}    
+
+.imgseven:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+
+.imgeight div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgeight:hover{
+    cursor: pointer;
+}    
+
+.imgeight:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+
+.imgnine div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgnine:hover{
+    cursor: pointer;
+}    
+
+.imgnine:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+
+.imgten div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.imgten:hover{
+    cursor: pointer;
+}    
+
+.imgten:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+
+
+
+  /* image overlay and hover
+  
+  (Parent Container )
+.imgone{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+ (Child Text Container)
+.imgone div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+( Hover on Parent Container )
+.imgone:hover{
+    cursor: pointer;
+}    
+
+.imgone:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+  */
